@@ -88,7 +88,9 @@ const char* Napis::Zwroc() const {
 
 
 void Napis::Ustaw(const char* nowy_napis) {
-    
+        if (this->m_pszNapis != nullptr) {
+        delete[] this->m_pszNapis;
+    }
     this->m_nDl = strlen(nowy_napis)+1;
     m_pszNapis = new char[m_nDl];
     //cout<<strlen(m_pszNapis)<<endl;
