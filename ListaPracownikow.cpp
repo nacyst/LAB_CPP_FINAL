@@ -89,7 +89,7 @@ void ListaPracownikow::Dodaj(const Pracownik  &p) {
 
 void ListaPracownikow::WypiszPracownikow()const {
     Pracownik *k = m_pPoczatek;
-    ofstream out("/Users/vovknikita/Documents/Lista.txt");
+    ofstream out("/Users/vovknikita/Documents/Lista.txt");//("H:\\Mykyta_Vovk\\Lab_3\\Lista.txt");
     cout << "\n\nLICZBA PRACOWNIKOW :" << m_nLiczbaPracownikow << endl;
     while (k != NULL) {
         
