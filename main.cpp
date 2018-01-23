@@ -174,7 +174,7 @@ int main(int argc, const char * argv[]) {
             }
             case 8:
             {
-                ifstream in("/Users/vovknikita/Documents/pobierz.txt");
+                ifstream in("/Users/vovknikita/Documents/pobierz.txt");//("H:\\Mykyta_Vovk\\Lab_3\\file.txt");
                 while(1){
                     
                     in >> B;
